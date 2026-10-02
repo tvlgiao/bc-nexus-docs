@@ -1,0 +1,61 @@
+site_name: "Nexus Sports BigCommerce Theme User Guide"
+site_url: "https://tvlgiao.github.io/bc-nexus-docs/"
+site_description: "Merchant guide for the Nexus Sports BigCommerce theme by PapaThemes: install it, pick a variation, set up the homepage, Page Builder regions and product cards."
+site_author: "PapaThemes"
+repo_url: "https://papathemes.com/contact-us/"
+repo_name: "Contact PapaThemes"
+copyright: "Copyright &copy; PapaThemes"
+
+nav:
+  - Home: index.md
+  - Getting started:
+    - usage/install.md
+    - usage/choose-variation.md
+  - Configuring the theme:
+    - usage/theme-styles.md
+    - usage/homepage.md
+    - usage/page-builder.md
+    - usage/products.md
+    - usage/pages-footer.md
+  - Settings reference: settings-reference.md
+  - Troubleshooting: troubleshooting.md
+  - Release notes: changelog.md
+  - Support: support.md
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: red
+      accent: red
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: red
+      accent: red
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - content.tooltips
+    - navigation.footer
+    - navigation.indexes
+    - navigation.sections
+    - search.highlight
+    - toc.follow
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+
+extra_css:
+  - css/extra.css

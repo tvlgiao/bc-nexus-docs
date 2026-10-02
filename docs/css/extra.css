@@ -1,0 +1,9 @@
+/* Screenshots: thin border so light screenshots do not melt into the page. */
+.md-typeset img.shot {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 4px;
+}
+
+.md-typeset table:not([class]) td code {
+  white-space: nowrap;
+}
