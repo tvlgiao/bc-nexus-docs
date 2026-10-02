@@ -17,8 +17,8 @@ Colour values are hex codes; in Theme Styles each one opens a colour picker.
 |  | Alert popup box background | `#1A1A1A` |  |
 |  | Alert popup text color | `#EDEDEE` |  |
 |  | Horizontal line | `#2A2A2A` |  |
-| Body text and links | Body text font family | `Inter` |  |
-|  | Body text font size | 16px |  |
+| Body text and links | Body text font family | Inter (default) |  |
+|  | Body text font size | 15px |  |
 |  | Body text color | `#B0B0B0` |  |
 |  | Body text hover color | `#EDEDEE` |  |
 |  | Secondary text color | `#8A8A8A` |  |
@@ -26,7 +26,7 @@ Colour values are hex codes; in Theme Styles each one opens a colour picker.
 |  | Link color | `#E0E0E0` |  |
 |  | Link hover color | `#C8102E` |  |
 |  | Link active color | `#C8102E` |  |
-| Headings | Heading font family | `Archivo` |  |
+| Headings | Heading font family | Archivo (default) |  |
 |  | Heading 1 | 48px |  |
 |  | Heading 2 | 36px |  |
 |  | Heading 3 | 28px |  |
@@ -61,7 +61,7 @@ Colour values are hex codes; in Theme Styles each one opens a colour picker.
 |  | Top bar link text | `Shop new arrivals` |  |
 |  | Top bar link URL | *(empty)* |  |
 | Header | Header background | `#080808` |  |
-| Logo | Logo position | Center |  |
+| Logo | Logo position | Left |  |
 |  | Logo image size | Optimized for theme |  |
 |  | Logo font size | 26px |  |
 |  | Logo text color | `#EDEDEE` |  |
@@ -76,7 +76,6 @@ Colour values are hex codes; in Theme Styles each one opens a colour picker.
 |  | Text hover color | `#EDEDEE` |  |
 |  | Dropdown menu background | `#141414` |  |
 |  | Dropdown menu border | `#2A2A2A` |  |
-|  | Dropdown menu display mode | Simple (Menu display depth of 3) |  |
 |  | Quick search background | `#141414` |  |
 | Social media icons | Show social media icons | Off |  |
 |  | Footer Placement | None |  |
@@ -84,6 +83,14 @@ Colour values are hex codes; in Theme Styles each one opens a colour picker.
 | Display settings | Show "Powered by BigCommerce" | On |  |
 |  | Show brands in footer | On |  |
 |  | Show "&copy;", current year and store name | On |  |
+| Payment icons | Show American Express | On |  |
+|  | Show Discover | Off |  |
+|  | Show Mastercard | On |  |
+|  | Show PayPal | On |  |
+|  | Show Visa | On |  |
+|  | Show Amazon Pay | Off |  |
+|  | Show Google Pay | Off |  |
+|  | Show Klarna | Off |  |
 
 ## Homepage
 
