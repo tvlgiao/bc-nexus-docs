@@ -25,6 +25,11 @@ The buy button follows the product: **Add to cart** for simple products,
 pre-order items. Adding to the cart opens the **cart drawer** instead of leaving
 the page. Each card also has **Quick view** and a wishlist heart.
 
+The cart drawer lists **You might also like** under the items, the same
+suggestions BigCommerce shows after an add to cart in its default theme. They
+come from your store's order history, so a new store shows none until orders
+build up; there is nothing to switch on.
+
 ## Card and grid settings
 
 | Setting (Theme Styles › Products) | Effect |
@@ -54,6 +59,14 @@ theme you use:
 - **Related products** let shoppers tick several items and add them together.
   Products with options show their own *Choose options* button instead. The list
   is BigCommerce's related products (**Products › Edit › Related products**).
+
+## Image descriptions
+
+Give every product image a description (**Products › Edit › Images › Image
+description**). Screen readers read it aloud, and search engines use it. When a
+product comes in several colours, name the colour shown, for example
+`Trail Runner Jacket, Red`, so shoppers who cannot see the photo know which one
+it is.
 
 ## Writing descriptions
 
